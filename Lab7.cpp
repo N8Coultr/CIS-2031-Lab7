@@ -37,12 +37,12 @@ for(int i = 0; i < 4; i++){
         oldest = ages[i];
     }
 }
-cout << "My oldest frind is " << oldest << " years old";
+cout << "My oldest frind is " << oldest << " years old" << endl;
 
 
     //❓❓ Lab Question 9:
     //Below this comment, that finds the NAME of your oldest friend.
-int oldest = 0;
+oldest = 0;
 string oldestName;
 for(int i = 0; i < 4; i++){
     if( ages[i] > oldest){
